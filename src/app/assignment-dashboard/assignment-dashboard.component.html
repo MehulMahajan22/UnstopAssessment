@@ -1,0 +1,60 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+    [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="true">
+    <mat-nav-list style="text-align: center;">
+      
+      
+
+        <mat-card class="sidenav-card">
+          <img src="../../assets/dashboard.svg" alt="" class="sidenav-icon">
+          Dashboard
+        </mat-card>
+      
+
+      <mat-card class="sidenav-card" style="background-color: #E5F1FC; width: 90px; height: 70px; border: 2px solid #0073E6;">
+        <img src="../../assets/note_alt.svg" alt="" class="sidenav-icon" style="margin-bottom: 0; margin-top: 10px;">
+        <figcaption>Assessment</figcaption>
+      </mat-card>
+    
+      <mat-card class="sidenav-card">
+        <img src="../../assets/quiz.svg" alt="" class="sidenav-icon">
+        My Library
+      </mat-card>
+      
+
+      <hr style="width: 80%; margin: auto;">
+
+      <button id="adminButton">Admin</button>
+
+      <mat-card class="sidenav-card">
+        <img src="../../assets/note_alt.svg" alt="" class="sidenav-icon">
+        Round Status
+      </mat-card>
+      
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+
+  
+  <div class="container" id="headerContainer">
+    
+    <div class="row" id="headerRow">        
+        <h1 id="mainHeading">Assessment</h1>
+        <span class="vertical"></span>
+        <div class="col-2" id="tabCol">
+          <h3 id="tabTitle">My Assessments</h3>
+        </div>
+    </div>
+    <div class="container" id="miniHeaderContainer">
+      <button id="sidenav-toggle"><img src="../../assets/segment.svg" alt=""></button>
+      Assessment
+    </div>
+    <hr style="width: 100%; margin-top: 0;">
+    <app-my-assessments></app-my-assessments>
+
+  </div>
+
+ 
+</mat-sidenav-content>
+
+</mat-sidenav-container>

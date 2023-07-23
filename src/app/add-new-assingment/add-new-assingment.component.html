@@ -1,0 +1,63 @@
+<div class="container">
+    <div class="row" id="headerRow">
+        <h1 class="col-11" id="mainHeading">Create New Assessment</h1>
+        <mat-icon class="col" (click)="closeModal()">close</mat-icon>
+    </div>
+    <hr>
+    <div class="form-container">
+        <div class="row" style="height: 12%;">
+            <h3 class="title">Name of Assessment</h3>
+            <mat-form-field appearance="outline">
+                <mat-label class="placeholder">Type Here</mat-label>
+                <input matInput placeholder="Placeholder" disabled>
+            </mat-form-field>    
+        </div>
+
+        <div class="row" style="height: 12%;">
+            <h3 class="title">Purpose of Test</h3>
+            <mat-form-field appearance="outline">
+            <mat-select class="placeholder" placeholder="Select" disabled>
+                <mat-option value="option">Option</mat-option>
+            </mat-select>
+            </mat-form-field>
+        </div>
+
+        <div class="row" style="height: 12%;">
+            <h3 class="title">Description</h3>
+            <mat-form-field appearance="outline">
+            <mat-select class="placeholder" placeholder="Select" disabled>
+                <mat-option value="option">Option</mat-option>
+            </mat-select>
+            </mat-form-field>
+        </div>
+        
+        <div class="row" style="height: 30%;">
+            <h3 class="title">Skills</h3>
+            <mat-form-field appearance="outline">
+                <mat-chip-listbox>
+                    <mat-chip style="background-color: #DDEDFF;">UI/UX Design ✖</mat-chip>
+                    <mat-chip style="background-color: #DDEDFF;">No of Questions ✖</mat-chip>
+                    <mat-chip style="background-color: #DDEDFF;">Web Development ✖</mat-chip>
+                    <mat-chip style="background-color: #DDEDFF;">UI/UX Design ✖</mat-chip>
+                    <mat-chip style="background-color: #DDEDFF;">Web Development ✖</mat-chip>
+                </mat-chip-listbox>
+                <hr>
+                <mat-select placeholder="Select" disabled>
+                    <mat-option value="option">Option</mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+
+        <div class="row" style="height: 12%;">
+            <h3 class="title">Duration of Assessment</h3>
+            <mat-form-field appearance="outline" >
+                <mat-label class="placeholder">HH:MM:SS</mat-label>
+                <input matInput placeholder="Placeholder" disabled>
+            </mat-form-field>
+        </div>
+        
+        <button style="height: 40px; border-radius: 10px; background-color: #0073E6; color: white; border: none; margin-top: 5px;">Save</button>
+    
+
+    </div>
+</div>

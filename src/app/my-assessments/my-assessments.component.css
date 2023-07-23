@@ -1,0 +1,168 @@
+#purple{
+    position: relative;
+    right: -40px;
+    width: 20px;
+    height: 20px;
+    background-color: #3079E1;
+    color: white;
+    border-radius: 50%;    
+    padding: 4%;
+    font-weight:500;
+}
+
+#blue{
+    position: relative;
+    right: -20px;
+    width: 20px;
+    height: 20px;
+    background-color: #6548EE;
+    color: white;
+    border-radius: 50%;    
+    padding: 4%;
+    font-weight:500;
+}
+
+#blue-1{
+    width: 20px;
+    height: 20px;
+    background-color: #6548EE;
+    color: white;
+    border-radius: 50%;    
+    padding: 4%;
+    font-weight:500;
+}
+
+#pink{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: #E9407A;
+    color: white;
+    border-radius: 50%;    
+    padding: 4%;
+    font-weight:500;
+}
+
+#box1{
+    border: 1px solid lightgray; 
+    border-radius: 10px 0 0 10px; 
+    box-shadow: none; 
+    text-align: center;
+    height: 15vh; 
+    width:14%;  
+    padding:1%;
+}
+
+#box2{
+    border: 1px solid lightgray; 
+    box-shadow: none; 
+    height: 15vh; 
+    padding: 1%; 
+    width: 28%;
+}
+
+#box3{
+    border: 1px solid lightgray; 
+    box-shadow: none; 
+    height: 15vh; 
+    padding:1%; 
+    width: 38%;
+}
+
+#box4{
+    border: 1px solid lightgray; 
+    border-radius: 0 10px 10px 0; 
+    height: 15vh; 
+    padding:1%;
+}
+
+h2{
+    color: #1C4980;;
+}
+
+#newAssessmentCard{
+    max-width: 450px;
+    min-width: 320px;
+    margin: 1.5%; 
+    background-color: lightgray;  
+    border-radius: 10px; 
+    text-align: center;
+}
+
+#plusImage{
+    width: 20%; 
+    margin: 5% auto; 
+    border-radius: 50%;
+}
+
+.assessmentCard{
+    max-width: 450px;
+    min-width: 320px;
+    margin: 1.5%; 
+    border-radius: 10px; 
+}
+
+.assessmentCardIcon{
+    width: 15%; 
+    border-radius: 10px; 
+    margin-top: 2%;
+}
+
+.title{
+    font-size: 18px; 
+    color: #1C4980;
+}
+
+.body{
+    font-size: 14px; 
+    color: #1C4980;
+}
+
+.date{
+    color: #8DA4BF; 
+    font-size: 12px;
+}
+
+.data{
+    font-weight: 500; 
+    color: #1C4980;
+}
+
+.shareIcon{
+    position: relative; 
+    right: -35px; 
+    border: 1px solid black; 
+    border-radius: 15px; 
+    padding: 7px; 
+    margin-right: 5px;
+}
+
+.heading{
+    font-size: 15px; 
+    color: #1C4980; 
+    font-weight: 550;
+}
+
+.custom-css{
+    width: 1000px !important;
+}
+
+#statsContainer{
+    border: none; 
+    box-shadow: none; 
+    height: 15vh;
+}
+
+#mainContainer{
+    padding: 1%;
+}
+
+@media(max-width: 1250px){
+    #statsContainer{
+        display: none;
+    }
+    #heading-1{
+        display: none;
+    }
+    
+}

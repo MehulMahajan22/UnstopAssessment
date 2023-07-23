@@ -1,0 +1,151 @@
+<div class="container" id="#mainContainer">
+    <h2 id="heading-1">Assessments Overview</h2>
+    <mat-card class="container" id="statsContainer">
+        <div class="row" style="height: 15vh;">
+            <div class="col-1" id="box1">
+                <p class="heading">Total Assessment</p>
+                <p style="font-size: 20px; font-weight: 700; color: #1C4980; position: relative; left: -25px; ">
+                    <img src="../../assets/view_agenda.svg" alt=""
+                        style=" width: 45px; padding: 9px; border-radius: 5px; background-color: #EBE8FD; margin-right: 5px;">
+                    34
+                </p>
+
+            </div>
+            <div class="col-3" id="box2">
+                <p class="heading">Candidates</p>
+                <p style="font-size: 20px; font-weight: 700; color: #1C4980; ">
+                    <img src="../../assets/Candidates.svg" alt=""
+                        style=" width: 45px; padding: 3px; border-radius: 5px; background-color: #EBE8FD; margin-right: 5px;">
+                    <span style="position: relative; top: -5px;">
+                         11,145
+                        <span style="color: #05C165; font-size: 14px; position: relative; top: -3px;">
+                            +89
+                        </span>
+                    </span>
+                    <span style="font-size: 14px; font-weight: 550; position: relative; top: 15px; right: 93px">
+                        Total Candidates
+                    </span>
+                    <span style="position: relative; top: -5px; left: -75px;">
+                        114 
+                    </span>
+                    <span style="color: #05C165; font-size: 14px; position: relative; top: -8px; left: -75px;">
+                        +89
+                    </span>
+                    <span style="position: absolute; top: 73px; left: 30%; font-size: 14px; font-weight: 550; ">
+                        Who Attempted 
+                    </span>
+                </p>
+            </div>
+            <div class="col-4" id="box3" >
+                <p class="heading">Candidate Source</p>
+                <p style="font-size: 20px; font-weight: 700; color: #1C4980;">
+                    <img src="../../assets/source.svg" alt=""
+                        style=" width: 45px; border-radius: 5px; background-color: #EBE8FD; margin-right: 5px;">
+                        <span style="position: relative; top: -5px;"> 
+                            11,000
+                            <span style="color: #05C165; font-size: 14px; position: relative; top: -3px;">
+                                +89
+                            </span>
+                        </span>
+                        <span style="font-size: 14px; font-weight: 550; position: relative; top: 15px; right: 93px">
+                            Email
+                        </span>
+                        <span style="position: relative; top: -5px;">
+                            145 
+                        </span>
+                        <span style="color: #05C165; font-size: 14px; position: relative; top: -8px; ">
+                            +89
+                        </span>
+                        <span style="position: absolute; top: 72px; left: 58%; font-size: 14px; font-weight: 550; ">
+                            Socail Share 
+                        </span>
+                        <span style="position: relative; top: -5px; left: 50px">
+                            145 
+                        </span>
+                        <span style="color: #05C165; font-size: 14px; position: relative; top: -8px; left: 50px">
+                            +89
+                        </span>
+                        <span style="position: absolute; top: 72px; left: 67.2%; font-size: 14px; font-weight: 550; ">
+                            Unique Link
+                        </span>
+                </p>
+            </div>
+            <div class="col-2" id="box4">
+                <p class="heading">Total Purpose</p>
+                <p style="font-size: 20px; font-weight: 700; color: #1C4980;">
+                    <img src="../../assets/link-icon.svg" alt=""
+                        style=" width: 45px; border-radius: 5px; background-color: #EBE8FD; margin-right: 5px;">
+                    11
+                </p>
+            </div>
+        </div>
+    </mat-card>
+
+    <h2 style="margin-top: 5vh;">My Assessment</h2>
+    <div class="row" style="height: 25vh; ">
+
+        <mat-card (click)="addAssessment()" class="col" id="newAssessmentCard">
+            <img src="../../assets/plus-icon.svg" alt="" id="plusImage">
+            <h2>New Assessment</h2>
+            <p>From here you can add questions of multiple types like MCQs, subjective (text or paragrapgh)!</p>
+        </mat-card>
+
+        <mat-card class="col assessmentCard">
+            <img src="../../assets/briefcase-icon.svg" alt="" class="assessmentCardIcon">
+            <p style="margin-top: 10px; line-height: 28px;">
+                <span class="title">Math Assessment</span> <br>
+                <span class="body">Job | <img src="../../assets/calendar_today.svg" width="5%" alt=""> 
+                    <span class="date">20 Apr 2023</span>
+                </span>
+            </p>
+            <img src="../../assets/Vector 332.svg" alt=""><br>
+            <div class="row">
+                <div class="col-2 data">
+                    00<br>
+                    Duration
+                </div>
+                <div class="col-5 data">
+                    00 <br>
+                    Questions
+                </div>
+                <div class="col-5">
+                    <p><span
+                            style="border: 1px solid black; border-radius: 15px; padding: 7px; margin-right: 10px;"><img
+                                src="../../assets/link.svg" alt=""> Share</span>
+                        <span id="blue-1">LP</span>
+                    </p>
+                </div>
+            </div>
+        </mat-card>
+
+        <mat-card class="col assessmentCard">
+            <img src="../../assets/briefcase-icon.svg" alt="" class="assessmentCardIcon" >
+            <p style="margin-top: 10px; line-height: 28px;">
+                <span style="font-size: 18px; color: #1C4980;">Math Assessment</span> <br>
+                <span style="font-size: 14px; color: #1C4980;">Job | <img src="../../assets/calendar_today.svg"
+                        width="5%" alt=""> <span style="color: #8DA4BF; font-size: 12px;">20 Apr 2023</span></span>
+            </p>
+            <img src="../../assets/Vector 332.svg" alt=""><br>
+            <div class="row">
+                <div class="col-2 data">
+                    00<br>
+                    Duration
+                </div>
+                <div class="col-3 data">
+                    00 <br>
+                    Questions
+                </div>
+                <div class="col-7">
+                    <p><span
+                            class="shareIcon"><img
+                                src="../../assets/link.svg" alt=""> Share</span>
+                        <span id="purple">LP</span>
+                        <span id="blue">LP</span>
+                        <span id="pink">LP</span>
+                    </p>
+                </div>
+            </div>
+        </mat-card>
+
+    </div>
+</div>

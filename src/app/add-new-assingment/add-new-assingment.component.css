@@ -1,0 +1,38 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+  
+.form-container > * {
+    width: 100%;
+    color: #1C4980;
+}
+
+.fa-times-thin:before {
+	content: '\00d7';
+}
+
+#headerRow{
+    height: 30px; 
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+h3{
+    font-weight: 550;
+}
+
+.title{
+    margin-bottom: 0;
+}
+
+.placeholder{
+    color: #1C4980; 
+    font-weight: 450
+}
+
+#mainHeading{
+    color: #1C4980; 
+    font-weight: 550;
+}
